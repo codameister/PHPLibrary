@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Book Search</title>
+</head>
+<body>
+<h3>Search our Book Catalog</h3>
+<hr>
+You may search by title, or by author, or both<br>
+<form action="booksearch.mysqli.php" method="POST">
+<table bgcolor="#bdc0ff" cellpadding="6">
+  <tbody>
+    <tr>
+      <td>Title:</td>
+      <td><INPUT type="text" name="searchtitle"></td>
+    </tr>
+    <tr>
+      <td>Author:</td>
+      <td><INPUT type="text" name="searchauthor"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><INPUT type="submit" name="submit" value="Submit"></td>
+    </tr>
+  </tbody>
+</table>
+</form>
+</body>
+</html>
