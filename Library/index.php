@@ -14,8 +14,6 @@
 <br>
 <A href="colour-chooser.php">Select colour preference</A>
 <br>
-<A href="contactus.html">Contact Us</a>
-<br>
 <A href="libraryadmin\index.php">Admin site</a>
 </body>
 </html>

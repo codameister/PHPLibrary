@@ -32,7 +32,6 @@
     $stmt = $db->prepare("insert into Books values (DEFAULT, ?, ?, false, DEFAULT, DEFAULT)");
     $stmt->bind_param('ss', $newbooktitle, $newbookauthor); 
 	$stmt->execute();
-	#$stmt->execute(array("$newbooktitle", "$newbookauthor"));
     printf ("<br>Book Added!");
     printf ("<br><a href=index.php>Return to home page </a>");
     exit;
